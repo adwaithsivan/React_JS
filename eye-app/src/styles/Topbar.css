@@ -1,0 +1,29 @@
+.container{
+    display: flex;
+    width: auto;
+    height: 4rem;
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    justify-content: space-between;
+    font-size: 18px;
+    align-items: center;
+}
+.left{
+    margin-left: 5rem;
+}
+.right{
+    display: flex;
+    margin-right: 5rem;
+}
+.phone{
+    display: flex;
+    padding-right: 25px;
+}
+.location{
+    display: flex;
+}
+.icon{
+    padding-top: 24px;
+    padding-right: 8px;
+}

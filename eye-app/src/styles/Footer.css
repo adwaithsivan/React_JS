@@ -1,0 +1,89 @@
+.main-wrap{
+    width: 100%;
+}
+.footer-wrap{
+    position: relative;
+    margin-top: 5rem;
+    padding: 30px;
+    background: #4b4747;
+}
+.footer-wrap1{
+    margin-left: 2rem;
+    display: flex;
+}
+.footer-section{
+    display: block;
+    padding-left: 10rem;
+    line-height: 1.5rem;
+}
+.footer-section h1{
+    font-size: 35px;
+    color: white;
+    text-transform: uppercase;
+}
+.footer-section p{
+    color: white;
+    display: block;
+    text-transform: capitalize;
+    font-size: 24px;
+}
+form{
+    position: relative;
+}
+form input{
+    position: absolute;
+    height: 55px;
+    width: 450px;
+    border: none;
+    outline: none;
+    padding: 5px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+form input::placeholder{
+    text-transform: uppercase;
+    padding-left: 10px;
+    font-size: 18px;
+}
+form .sub-btn{
+    height: 67px;
+    width: 5rem;
+    background: black;
+    border: none;
+    position: absolute;
+    left: 25rem;
+    color: #4b4747;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 18px;
+}
+.footer-section .follow{
+    margin-top: 7rem;
+}
+.social-icons{
+    color: white;
+    font-size: 2rem;
+}
+ #insta{
+    padding-left: 10px;
+}
+.footer-wrap2{
+    padding-top: 5rem;
+}
+.footer-wrap2{
+    margin-left: 1rem;
+    display: flex;
+}
+.bottom-footer{
+    position: absolute;
+    width: 100%;
+    height: 4rem;
+    color: white;
+    background-color: black;
+}
+.bottom-footer p{
+    text-transform: uppercase;
+    padding-left: 5rem;
+    font-size: 22px;
+}

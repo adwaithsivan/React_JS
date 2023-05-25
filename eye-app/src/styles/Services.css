@@ -1,0 +1,129 @@
+.services-container{
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-bottom: 5rem;
+}
+.services-heading {
+    line-height: 2rem;
+}
+.services-heading h3{
+    font-size: 40px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.services-heading h1{
+    font-size: 55px;
+    display: inline;
+}
+.service1{
+    width:35rem;
+    height: 40rem;
+    position: relative;
+    overflow: hidden;
+}
+.service-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.service-card-title{
+    padding-top: 12px;
+    font-size: 40px;
+    text-transform: capitalize;
+}
+.service-card-body h3{
+    font-size: 25px;
+    text-transform: capitalize;
+    cursor: pointer;
+
+}
+.service-card-info{
+    font-size: 30px;
+    line-height: 2.5rem;
+}
+#info2{
+    font-weight: 200;
+    text-transform: capitalize;
+}
+.all-services{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+.service-card-body{
+    width: 100%;
+    height: 20rem;
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 24rem;
+    line-height: 10px;
+    text-transform: uppercase;
+    text-align: left;
+    padding-left: 25px;
+    padding-top: 1rem;
+}
+.service-section{
+    background: black;
+    height: 40rem;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 5rem;
+
+}
+.banner{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.3;
+    position: absolute;
+}
+.service-section-text{
+    padding: 5rem 10rem;
+    position: absolute;
+    line-height: 2rem;
+    color: white;
+}
+.service-section-text h3{
+    font-size: 40px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 1rem;
+}
+.service-section-text h1{
+    font-size: 70px;
+    text-transform: capitalize;
+}
+.service-section-text p{
+    font-size: 30px;
+    line-height: 3rem;
+    font-weight: 300;
+}
+.button-sec{
+    padding-top: 2rem;
+    display: flex;
+}
+.button3{
+    margin-left: 5rem;
+}
+.btns{
+    text-transform: uppercase;
+    background-color:#eb6983 ;
+    padding: 10px;
+    border: none;
+    font-size: 25px;
+    border-radius: 8px;
+    padding: 15px 40px;
+    cursor: pointer;
+}
+#shop-btn{
+    text-transform: uppercase;
+    background-color:black ;
+    color: white;
+    padding: 10px;
+    border: none;
+    font-size: 25px;
+    border-radius: 8px;
+    padding: 15px 40px;
+    cursor: pointer;
+}

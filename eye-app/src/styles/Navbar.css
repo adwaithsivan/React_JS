@@ -1,0 +1,62 @@
+.nav-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: auto;
+    height: 6rem;    
+}
+.logo{
+    margin-left: 2.7rem;
+}
+.nav-links ul {
+    margin-left: 12rem;
+    display: flex;
+    justify-items: center;
+}
+.nav-links ul li {
+    list-style: none;
+    padding-right: 2rem;
+    
+}
+.nav-links ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-weight: 500;
+    font-size: 20px;
+    cursor: pointer;
+}
+.log-control{
+    display: flex;
+    margin-right: 5rem;
+}
+.login-logout{
+    display: flex;
+    padding-right: 5rem;
+}    
+.login-btn{
+    padding-right: 1rem;
+}
+.btn{
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 8px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+.profile{
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+}
+.profile .icons{
+    padding-right: 15px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(235, 105, 131);
+    padding: 8px;
+    border-radius: 8px;
+    transition: ease-in 0.3s;
+}

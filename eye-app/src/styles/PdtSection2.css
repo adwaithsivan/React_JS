@@ -1,0 +1,70 @@
+.grid-container {
+    margin-left: 3rem;
+    margin-top: 5rem;
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+}
+
+  .left-grid {
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+    width: 55rem;
+    height: 50rem;
+    position: relative;
+  }
+.right-grid{ 
+    font-size: 30px;
+    text-align: center;
+    width: 55rem;
+    position: relative;
+    overflow: hidden;
+  }
+  .right-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .left-img{
+    width: 55rem;
+  }
+  .left-grid .button1{
+    position: absolute;
+    display: flex;
+    top: 46rem;
+    margin-left: 5em;
+  }
+  .left-grid .button2{
+    position: absolute;
+    display: flex;
+    top: 46rem;
+    margin-left: 16em;
+  }
+.grid-btns{
+    text-transform: uppercase;
+    background-color:#eb6983 ;
+    padding: 10px;
+    border: none;
+    font-size: 25px;
+    border-radius: 8px;
+    padding: 10px 40px;
+    cursor: pointer;
+}
+#shop-btn{
+    text-transform: uppercase;
+    background-color:black ;
+    color: white;
+    padding: 10px;
+    border: none;
+    font-size: 25px;
+    border-radius: 8px;
+    padding: 10px 40px;
+    cursor: pointer;
+}
+.grid-info{
+    line-height: 3rem;
+}
+.grid-title{
+    text-transform: uppercase;
+    font-weight: 700;
+}

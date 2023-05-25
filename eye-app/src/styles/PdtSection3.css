@@ -1,0 +1,87 @@
+
+
+.lists{
+    margin-top: 5rem;
+}
+.lists ul{
+    display: flex;
+    justify-content: space-evenly
+}
+
+.lists ul li{
+    text-transform: uppercase;
+    font-size: 20px;
+    list-style: none;
+    line-height: 25px;
+    text-align: center;
+}
+.lists ul li p{
+    font-weight: 600;
+}
+
+.grid-container2 {
+    margin-left: 3rem;
+    margin-top: 5rem;
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}
+.right-grid2{
+    padding-top: 1.8rem;
+    margin-left: 8rem;
+}
+.right-grid2 p{
+    font-size: 40px;
+    line-height: 4px;
+}
+.right-grid2 h3{
+    font-size: 40px;
+    text-transform: uppercase;
+    line-height: 2.5rem;
+    padding-bottom: 1.5rem;
+}
+.right-grid2 .grid-info2{
+    font-size: 28px;
+    line-height: 3rem;
+    padding-bottom: 3rem;
+}
+.left-grid2{
+    margin-left: 4rem;
+}
+.offer-section{
+    margin-top: 4rem;
+    width: auto;
+    height: 15rem;
+    background-color: #eb6983;
+}
+
+.ad-section{
+    margin-left: 15rem;
+    line-height: 2rem;
+    display: flex;
+}
+.ad-section h3{
+    font-size: 55px;
+    position: relative;
+}
+
+.ad-button{
+    margin-left: 20rem;
+    margin-top: 5rem;
+}
+#shop-btn2{
+    text-transform: uppercase;
+    background-color:black ;
+    color: white;
+    padding: 10px;
+    border: none;
+    font-size: 25px;
+    border-radius: 8px;
+    padding: 20px 60px;
+    cursor: pointer;
+}
+#para{
+    font-size: 24px;
+    font-weight: 500;
+    padding-top: 1rem;
+}
